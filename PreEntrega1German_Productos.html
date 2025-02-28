@@ -1,63 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Perfumes</title>
-    <link rel="stylesheet" href="styleGerman.css">
+    <link rel="stylesheet" href="styleGermanProductos.css">
 </head>
+
 <body>
     <header>
+        <img src="Img/flor-de-loto.png" alt="icono" class="icon">
         <h1>Tienda de Perfumes</h1>
         <nav>
             <ul>
-                <li><a href="PreEntrega1German.html">Inicio</a></li>
+                <li><a href="PreEntrega1GermanInicio.html">Inicio</a></li>
                 <li><a href="PreEntrega1German_Productos.html">Productos</a></li>
                 <li><a href="PreEntrega1German_Ofertas.html">Ofertas</a></li>
                 <li><a href="PreEntregaGerman_Contacto.html">Contacto</a></li>
-                <li><a href="PreEntrega1German_FAQ.html">Preguntas frecuentes  </a></li>
+                <li><a href="PreEntrega1German_FAQ.html">Preguntas frecuentes</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="inicio">   
-        <h2>Encuentra los mejores perfumes a los mejores precios.</h2>
+
+    <section id="inicio">
+        <h2>Selecciona la medida a tu gusto</h2>
+        <p>Vas a poder encontrar nuestros productos con diferentes cantidades para tu mejor comodidad.</p>
     </section>
-    
+
     <section id="productos">
         <h2>Nuestros Productos</h2>
         <article class="producto">
-            <img src="perfume1.jpg" alt="Perfume Elegante">
+            <img src="Img/Khamrah.webp" alt="Perfume Elegante">
             <h3>Perfume Elegante</h3>
             <p>Un aroma sofisticado y duradero.</p>
             <p>Elige el tamaño:
-            <select id="selectorPerfume" onchange="actualizarPrecio()">
-                <option value="50" data-precio="35">50ml - $35</option>
-                <option value="100" data-precio="50" selected>100ml - $50</option>
+                <select id="selectorPerfume" onchange="actualizarPrecio()">
+                    <option value="50" data-precio="35">50ml - $35</option>
+                    <option value="100" data-precio="50" selected>100ml - $50</option>
+                </select>
             </p>
-            </select>
-            <p class="precio" id="precio">Precio: $50</p>
         </article>
         <article class="producto">
-            <img src="perfume2.jpg" alt="Perfume Floral">
+            <img src="Img/fakhar_mujer.webp" alt="Perfume Floral">
             <h3>Perfume Floral</h3>
             <p>Frescura y delicadeza en un solo frasco.</p>
             <p>Elige el tamaño:
-            <select id="selectorPerfume" onchange="actualizarPrecio()">
-                <option value="50" data-precio="30">50ml - $30</option>
-                <option value="100" data-precio="45" selected>100ml - $45</option>
+                <select name="" id="selectorPerfume">
+                    <option value="50" data-precio="30">50ml - $30</option>
+                    <option value="100" data-precio="45" selected>100ml - $45</option>
+                </select>
             </p>
-            </select>
-            <p class="precio" id="precio">Precio: $50</p>
         </article>
     </section>
-    
+    <section id="productos">
+        <article class="producto">
+            <img src="Img/mandarin.webp" alt="Perfume Elegante">
+            <h3>Perfume juvenil</h3>
+            <p>Un aroma dulce y duradero</p>
+            <p>Elige el tamaño:
+                <select id="selectorPerfume">
+                    <option value="50" data-precio="30">50ml - $30</option>
+                    <option value="100" data-precio="45" selected>100ml - $45</option>
+                </select>
+            </p>
+        </article>
+        <article class="producto">
+
+            <img src="Img/Man_intense.webp" alt="Perfume Floral">
+            <h3>Perfume amaderado</h3>
+            <p>Notas a cuero y maderas sofisticadas.</p>
+
+            <p>Elige el tamaño:
+                <select name="" id="selectorPerfume">
+                    <option value="50" data-precio="30">50ml - $30</option>
+                    <option value="100" data-precio="45" selected>100ml - $45</option>
+                </select>
+            </p>
+        </article>
+    </section>
     <footer>
         <section id="contacto"> <!--Redes sociales-->
             <h2>Contacto</h2>
-            <p>Para más información, escríbenos a <a href="Brandi.over24@gmail.com">Brandi.over24@gmail.com</a>| <a href="https://www.instagram.com/brandi.over24/" target="_blank">Instagram</a></p>
+            <p>Para más información, escríbenos a
+                <a href="Brandi.over24@gmail.com">Brandi.over24@gmail.com</a>
+                |
+                <a href="https://www.instagram.com/brandi.over24/" target="_blank">Instagram</a>
+            </p>
         </section>
-            <p>&copy; 2025 Tienda de Perfumes - Todos los derechos reservados.</p>
-        </footer>
+        <p>&copy; 2025 Tienda de Perfumes - Todos los derechos reservados.</p>
+    </footer>
 </body>
+
 </html>

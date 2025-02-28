@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -16,10 +16,6 @@ header {
   
 }
 
-.header-content {
-    flex-grow: 1;
-    text-align: center;
-}
 
 .icon {
     width:60px;
@@ -47,23 +43,16 @@ nav a{
     padding: 10px 10px;
 }
 
-#contacto { 
-    color: #fff;
-    padding: 0;
+
+section {
+    padding: 0.5em;
 }
 
-
-.faq h2 {
-    padding: 10px;
-    border: 2px #333 solid;
-    border-radius: 10px;
+section img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
-p a {
-    color: #ffffff;
-    text-decoration:none;
-    font-weight:bold;  
-}
-
 footer {
     background-color: #526784;
     color: #fff;
