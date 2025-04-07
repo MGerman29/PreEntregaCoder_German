@@ -13,9 +13,7 @@ header {
     align-items: center; 
     gap: 15px; 
     padding: 10px;
-  
 }
-
 
 .icon {
     width:60px;
@@ -43,9 +41,15 @@ nav a{
     padding: 10px 10px;
 }
 
-section {
-    padding: 1em;
-    text-align: center;
+.contacto {
+    padding: 0.5em;
+    text-align: left;
+}
+
+#iconos {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 #productos a{
@@ -71,16 +75,16 @@ border-bottom: solid;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
-#contacto { 
-    color: #fff;
-    padding: 0;
+.faq {
+    text-align: start;
+}
 
+.faq h2 {
+    padding: 10px;
+    border: 2px #333 solid;
+    border-radius: 10px;
 }
-p a {
-    color: #ffffff;
-    text-decoration:none;
-    font-weight:bold;  
-}
+
 footer {
     background-color: #5c6e87;
     color: #fff;
