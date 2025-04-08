@@ -11,12 +11,12 @@ header {
     color: #fff;
     display: flex;
     align-items: center; 
-    gap: 15px; 
-    padding: 10px;
+    gap: 10px; 
+    padding: 5px;
 }
 
 .icon {
-    width:60px;
+    width:50px;
     height: auto;
 }
 
@@ -39,6 +39,11 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     padding: 10px 10px;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
 }
 
 .contacto {
