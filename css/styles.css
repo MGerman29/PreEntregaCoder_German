@@ -11,22 +11,29 @@ body {
     padding: 3px;
 }
 
+#header-img {
+    width: 50px;
+    height: 50px;
+}
 .nav-link {
     color: #fff;
+    margin: 0 10px 0 10px;
+}
+
+#inicio {
+    margin-top: 40px;
 }
 
 #inicio h2 {
    font-size: 26px;
 }
 
-nav a:hover {
+.nav-link:hover, .nav-link:focus, .active {
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    transition: color 0.3s ease;
-}
-
-section {
-    text-align: center;
+    border-radius: 12px;
+    transition: all 0.3s ;
+    outline: none;
+    color: #fff !important;
 }
 
 .contacto {
@@ -35,9 +42,27 @@ section {
 }
 
 #iconos {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     padding: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    background: transparent;
+}
+
+.iconos-container {
+    margin: 80px;
 }
 
 .productos a {
@@ -46,7 +71,8 @@ section {
 }
 
 .productos h2 {
-    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .producto img {
@@ -82,6 +108,14 @@ section {
     text-align: center;
 }
 
+.precio {
+    font-weight: bold;
+}
+
+.form-select {
+    width: 50%;
+}
+
 .producto:hover {
     transform: scale(1.03);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
@@ -113,16 +147,5 @@ footer {
     background-color: #5c6e87;
     color: #ffffff;
     text-align: center;
-    padding: 0.5rem;
+    padding: 10px;
 }
-
-@media (max-width: 768px) {
-    body {
-      font-size: 14px;
-      padding: 10px;
-    }
-
-    footer {
-        width: 100%;
-    }
-  }
