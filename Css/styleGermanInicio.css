@@ -6,24 +6,13 @@ body {
     color: #222;
 }
 
-header {
+.navbar {
     background-color: #5c6e87;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    gap: 10px;
     padding: 3px;
-    justify-content: space-between;
 }
 
-header h1 {
-    font-size: 22px;
-    margin: 10px;
-}
-
-.icon {
-    width: 50px;
-    height: auto;
+.nav-link {
+    color: #fff;
 }
 
 #inicio h2 {
@@ -36,25 +25,7 @@ nav a:hover {
     transition: color 0.3s ease;
 }
 
-nav {
-    margin-top: 15px;
-    margin-left: auto;
-}
-
-nav ul li {
-    display: inline;
-    margin: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 10px;
-}
-
 section {
-    padding: 1em;
     text-align: center;
 }
 
@@ -100,7 +71,7 @@ section {
 .producto {
     background-color: #fff;
     padding: 1rem;
-    margin: 2rem;
+    margin: 3rem;
     width: 320px; 
     height: 450px;
     display: inline-block;
@@ -128,24 +99,19 @@ section {
     font-size: 24px ;
 }
 
+.wpp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.wpp img {
+    width: 40px
+}
+
 footer {
     background-color: #5c6e87;
     color: #ffffff;
     text-align: center;
     padding: 0.5rem;
-}
-
-@media (max-width: 768px) {
-    .productos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .producto {
-        width: 100%;
-    }
-
-    header h1 {
-        font-size: 20px;
-    }
 }
