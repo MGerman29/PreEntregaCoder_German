@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #fefaf6;
@@ -24,16 +24,15 @@ body {
     margin-top: 40px;
 }
 
-#inicio h2 {
-   font-size: 26px;
-}
-
 .nav-link:hover, .nav-link:focus, .active {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     transition: all 0.3s ;
     outline: none;
     color: #fff !important;
+}
+.lead {
+    font-size: 38px;
 }
 
 .contacto {
@@ -71,8 +70,7 @@ body {
 }
 
 .productos h2 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 26px;
 }
 
 .producto img {
