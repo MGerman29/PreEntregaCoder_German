@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
     margin: 0;
@@ -6,6 +7,15 @@ body {
     color: #222;
 }
 
+#inicio {
+    margin-top: 40px;
+}
+
+.lead {
+    font-size: 38px;
+}
+
+/* Navbar */
 .navbar {
     background-color: #5c6e87;
     padding: 3px;
@@ -15,55 +25,26 @@ body {
     width: 50px;
     height: 50px;
 }
+
 .nav-link {
     color: #fff;
     margin: 0 10px 0 10px;
 }
 
-#inicio {
-    margin-top: 40px;
-}
-
 .nav-link:hover, .nav-link:focus, .active {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    transition: all 0.3s ;
+    transition: all 0.3s;
     outline: none;
     color: #fff !important;
 }
-.lead {
-    font-size: 38px;
+
+/* Carousel */
+.carousel-image {
+    height: 100%;
 }
 
-.contacto {
-    padding: 0.5em;
-    text-align: left;
-}
-
-#iconos {
-    width: 60px;
-    height: 60px;
-    padding: 5px;
-}
-
-.links {
-    text-decoration: none;
-    color: black;
-}
-
-.links:hover{
-    text-decoration: underline;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-    background: transparent;
-}
-
-.iconos-container {
-    margin: 80px;
-}
-
+/* Productos */
 .productos a {
     text-decoration: none;
     color: #222;
@@ -71,6 +52,20 @@ body {
 
 .productos h2 {
     font-size: 26px;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 3rem;
+    width: 320px; 
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
 }
 
 .producto img {
@@ -92,18 +87,10 @@ body {
     overflow: hidden;
 }
 
-.producto {
-    background-color: #fff;
-    padding: 1rem;
-    margin: 3rem;
-    width: 320px; 
-    height: auto;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    text-align: center;
+.producto:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
 }
 
 .precio {
@@ -114,12 +101,7 @@ body {
     width: 50%;
 }
 
-.producto:hover {
-    transform: scale(1.03);
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
-    transition: all 0.3s ease;
-}
-
+/* FAQ */
 .faq {
     text-align: start;
 }
@@ -128,22 +110,50 @@ body {
     padding: 10px;
     border: 2px #222 solid;
     border-radius: 10px;
-    font-size: 24px ;
+    font-size: 24px;
 }
 
-.wpp{
+/* Contacto */
+.contacto {
+    padding: 0.5em;
+    text-align: left;
+}
+
+#iconos {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+/* WhatsApp Button */
+.wpp {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
 
 .wpp img {
-    width: 40px
+    width: 40px;
 }
 
+/* Footer */
 footer {
     background-color: #5c6e87;
     color: #ffffff;
     text-align: center;
     padding: 10px;
+}
+
+.footer-text {
+    margin: auto;
+    max-width: 700px; 
 }
